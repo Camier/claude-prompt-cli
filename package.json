@@ -1,0 +1,57 @@
+{
+  "name": "claude-prompt-enhancer",
+  "version": "3.0.0",
+  "description": "CLI tool for enhancing prompts with multiple LLM providers including Ollama, HuggingFace, and more!",
+  "main": "cli.js",
+  "bin": {
+    "enhance": "./cli.js",
+    "claude-enhance": "./cli.js"
+  },
+  "scripts": {
+    "test": "node cli.js --list",
+    "link": "npm link",
+    "unlink": "npm unlink",
+    "setup": "npm install && npm link",
+    "ai-test": "node cli.js \"test prompt\" --ai --stats"
+  },
+  "keywords": [
+    "claude",
+    "prompt",
+    "enhancer",
+    "ai",
+    "cli",
+    "prompt-engineering",
+    "huggingface",
+    "llm",
+    "ollama",
+    "local-llm",
+    "multi-provider"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "clipboardy": "^2.3.0",
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.1",
+    "lru-cache": "^10.1.0",
+    "node-fetch": "^2.7.0",
+    "sqlite3": "^5.1.6",
+    "better-sqlite3": "^9.2.2",
+    "ora": "^5.4.1",
+    "inquirer": "^8.2.6",
+    "yaml": "^2.3.4",
+    "cli-table3": "^0.6.3",
+    "gradient-string": "^2.0.2",
+    "figlet": "^1.7.0",
+    "boxen": "^5.1.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/claude-prompt-enhancer-cli"
+  }
+}

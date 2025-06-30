@@ -1,0 +1,6 @@
+{
+  "migratedAt": "2025-06-30T07:43:20.908Z",
+  "fromVersion": "3.0.0",
+  "toVersion": "3.0.0",
+  "backupLocation": "/home/mik/Projects/claude-prompt-cli/backup-v2"
+}

@@ -1,0 +1,46 @@
+# Basic Prompt Enhancement Tests
+# Run with: enhance --test examples/tests/basic-tests.yaml
+
+# Use template mode for testing without requiring a provider
+provider: template
+mode: balanced
+
+config:
+  verbose: true
+  debug: false
+  useAI: false
+
+tests:
+  - name: "Simple enhancement test"
+    prompt: "write hello world"
+    assertions:
+      - contains: "hello"
+      - contains: "world"
+      - min_length: 50
+
+  - name: "Coding mode test"
+    mode: coding
+    prompt: "create a function to reverse a string"
+    assertions:
+      - contains: "function"
+      - contains: "reverse"
+      - contains: "return"
+      - quality: structured
+
+  - name: "Analysis mode test"
+    mode: analysis
+    prompt: "analyze user retention metrics"
+    assertions:
+      - contains: "retention"
+      - contains: "analysis"
+      - has_sections: ["Scope", "Analysis"]
+      - quality: detailed
+
+  - name: "SPEAR framework test"
+    mode: SPEAR  # Use mode instead of framework for template tests
+    prompt: "build a login system"
+    assertions:
+      - contains: "START"
+      - contains: "PROVIDE"
+      - contains: "EXPLAIN"
+      - quality: structured

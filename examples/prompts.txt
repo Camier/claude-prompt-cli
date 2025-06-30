@@ -1,0 +1,11 @@
+// Example prompts for batch processing
+write a function to validate email addresses
+implement binary search algorithm
+create a REST API endpoint
+parse CSV files efficiently
+build a simple web server
+handle database connections
+implement caching logic
+create unit tests
+optimize query performance
+handle error cases gracefully

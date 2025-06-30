@@ -1,0 +1,44 @@
+# Claude Research Template
+
+## Research Question
+{{INPUT}}
+
+## Research Framework
+
+### 1. Background & Context
+- What is already known about this topic?
+- What are the key concepts to understand?
+- Historical context and development
+
+### 2. Current State Analysis
+- Latest developments and trends
+- Key players and contributors
+- Current challenges and opportunities
+
+### 3. Multiple Perspectives
+- Academic viewpoint
+- Industry perspective  
+- Societal implications
+- Ethical considerations
+
+### 4. Evidence & Data
+- What evidence supports different viewpoints?
+- What data is available?
+- Quality and reliability of sources
+
+### 5. Critical Analysis
+- Strengths and weaknesses of different approaches
+- Gaps in current knowledge
+- Contradictions or debates
+
+### 6. Future Directions
+- Emerging trends
+- Potential breakthroughs
+- Unanswered questions
+
+### 7. Synthesis & Conclusions
+- Key takeaways
+- Practical applications
+- Recommendations for further exploration
+
+Please provide a comprehensive research analysis following this framework.
